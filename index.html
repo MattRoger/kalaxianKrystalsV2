@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalaxian Krystal Mixer</title>
+    <link type="text/css" rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
     <div class="openingModal">
-        <p>Some Basic Instructions!</p>
+      <img
+        class="openImg"
+        src="assets/images/rick-morty.png"
+        alt="rick and morty"
+      />
+      <section class="game-rules">
+        <h2>Let's get get Ricky Ricky wrecked! Son!</h2>
+        <p>
+          Hey Morty! Let's keep this party going!!! With Kalaxian Crystals!!!!
+          Morty, I need you to mixed up these four crystals.
+        </p>
+        <p>
+          Each crystal will give us a certain amount Kalaxian, we need just the
+          right amount to get this party started!
+        </p>
+        <p>Oh, Yeah, I should mention, too much and it will kill me.</p>
         <button id="start" class="button">Start!</button>
+      </section>
     </div>
     <div class="gameWrapper">
-        <div class="crystalWrapper"></div>
-        <div class="targetScore">
-            <p>The Target Score is: <span id="targetScore"></span></p>
-        </div>
-        <div class="currentScore">
-            <p>The Current Score is: <span id="score"></span></p>
-        </div>
+      <div class="crystalWrapper"></div>
+      <div class="targetScore">
+        <p>The Target Score is: <span id="targetScore"></span></p>
+      </div>
+      <div class="currentScore">
+        <p>The Current Score is: <span id="score"></span></p>
+      </div>
+    </div>
+    <div class="loser">
+      <h2>Oh, Geez! Rick is Dead!</h2>
+      <button class="playAgain button">Play Again?</button>
+      <button class="quit button">I give Up!</button>
+    </div>
+    <div class="winner">
+        <img class ="winnerImg"src="assets/images/crystal.gif" alt="rick does crystals"/>
+        <h2><em>Wubba lubba dub dub!</em> </h2>
+        <p>We Just Saved this Lame Party!</p>
+      <button class="playAgain button">Play Again?</button>
+      <button class="quit button">I give Up!</button>
     </div>
 
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="assets/scripts/game.js"></script>
-</body>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script src="assets/scripts/game.js"></script>
+  </body>
 </html>
