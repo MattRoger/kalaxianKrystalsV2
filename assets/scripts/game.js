@@ -29,8 +29,7 @@ const loadCrystals = () => {
     imageCrystal.attr("alt", crystalArray[i]);
     let valueCrystal = randomNum(1, 12);
     imageCrystal.attr("data-crystal-value", valueCrystal);
-    $(".crystalWrapper").append(imageCrystal);
-    console.log(valueCrystal);
+    $(".crystalWrapper").append(imageCrystal);    
   }
 };
 
@@ -40,7 +39,8 @@ const loser = () => {
   $(".gameWrapper").css({ display: "none" });
 };
 const winner = () => {
-  alert("winner");
+    $(".winner").css({ display: "block" });
+    $(".gameWrapper").css({ display: "none" });
 };
 
 const onClick = () => {

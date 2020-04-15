@@ -1,12 +1,105 @@
-.gameWrapper{
-    display: none;
+html {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-.loser{
-    display: none;
+body {
+  background-color: #262c3a;
 }
 
-.winner{
-    display: none;
+.loser {
+  display: none;
 }
 
+.winner {
+  display: none;
+}
+.openingModal {
+  background-image: url(../images/portal.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 125px;
+  display: flex;
+}
+
+.openImg {
+  width: 225px;
+  padding-right: 2em;
+}
+.gameRules {
+  background-color: #f1ffe8;
+  padding: 2em 4em;
+}
+.startButton {
+  font-size: 1.5em;
+  display: flex;
+  margin: auto;
+  padding: 0.75em 1.5em;
+  background-color: #97dfd9;
+}
+.startButton:hover {
+  background-color: #fef96e;
+}
+
+.startBtnImg {
+  width: 45px;
+}
+
+.gameWrapper {
+  display: none;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.crystalImage {
+  width: 275px;
+}
+
+.crystalWrapper {
+  width: 40%;
+}
+
+.scoreBoard{
+    background-color: #5CAD4A;
+    position: absolute;
+    top:1em;
+    right:8em;
+    padding:0 1em;
+    font-size: 2.5em;
+    border: .15em solid #208D45;
+    color:#97DFD9;
+    width:450px;
+}
+
+.endWrapper{     
+    display:block
+}
+
+.endImg{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.end{
+    margin: auto;
+    width:80%;
+    font-size:2em;
+    color:#97dfd9;
+    text-align: center;
+}
+
+.button{
+    font-size:2.25em;
+    padding: .35em 1em;
+    background-color: #97dfd9;
+}
+.button:hover{
+    background-color: #fef96e;
+}
