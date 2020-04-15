@@ -1,13 +1,16 @@
 let score = 0;
+
 const randomNum = (lower, upper) => {
   if (isNaN(lower) || isNaN(upper)) {
     throw Error("both must be nums");
   }
   return (number = Math.floor(Math.random() * (upper - lower + 1)) + lower);
 };
+
 const startGame = () => {
   return (targetScore = randomNum(16, 120));
 };
+
 const loadCrystals = () => {
   for (var i = 0; i < 4; i++) {
     const imageCrystal = $("<img>");
@@ -29,18 +32,18 @@ const loadCrystals = () => {
     imageCrystal.attr("alt", crystalArray[i]);
     let valueCrystal = randomNum(1, 12);
     imageCrystal.attr("data-crystal-value", valueCrystal);
-    $(".crystalWrapper").append(imageCrystal);    
+    $(".crystalWrapper").append(imageCrystal);
   }
 };
 
 const loser = () => {
-  console.log("loser");
   $(".loser").css({ display: "block" });
   $(".gameWrapper").css({ display: "none" });
 };
+
 const winner = () => {
-    $(".winner").css({ display: "block" });
-    $(".gameWrapper").css({ display: "none" });
+  $(".winner").css({ display: "block" });
+  $(".gameWrapper").css({ display: "none" });
 };
 
 const onClick = () => {
@@ -58,14 +61,16 @@ const onClick = () => {
     }
   });
 };
+
 const playAgain = () => {
   startGame();
-  score=0;
+  score = 0;
   $("#score").text(score);
   $("#targetScore").text(targetScore);
-  console.log(targetScore)
+  console.log(targetScore);
   $(".loser").css({ display: "none" });
   $(".winner").css({ display: "none" });
+  $(".thanksForPlaying").css({ display: " none" });
   $(".gameWrapper").css({ display: "block" });
 };
 
@@ -81,8 +86,14 @@ $("#start").on("click", function () {
 });
 
 $(".playAgain").on("click", function () {
-    console.log("clicked play again")
-    playAgain()
-})
+  console.log("clicked play again");
+  playAgain();
+});
+
+$(".quit").on("click", function () {   
+  $(".thanksForPlaying").css({ display: " block" });
+  $(".loser").css({ display: "none" });
+  $(".winner").css({ display: "none" });
+});
 
 onClick();
