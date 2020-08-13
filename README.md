@@ -32,4 +32,11 @@ If you're using any code style like xo, standard etc. That will help others whil
 * @MattRoger 
   * :man_office_worker: https://mattroger.github.io/
   * :e-mail: mattroger.webdev@gmail.com
+<<<<<<< HEAD
   * :man_office_worker: www.linkedin.com/in/matt-roger/
+=======
+  * :man_office_worker: www.linkedin.com/in/matt-roger/
+
+
+## License
+>>>>>>> d9a3cf1fef2c1be954d7e337140d82652293c81e
