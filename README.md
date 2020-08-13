@@ -1,19 +1,27 @@
 # kalaxianKrystals 2.0
+[See it Live](https://mattroger.github.io/kalaxianKrystalsV2/)
 
-A little info about your project and/ or overview that explains what the project is about.
+Can you help Rick mix up the perfect batch of Kalaxian Krystals? Each krystal has a random value. Can you reach the target score with out going over?
+
+### Winner
+![GitHub Logo](/assets/images/Kalaxian_krystal_win.gif)
+
+### Loser
+![GitHub Logo](/assets/images/Kalaxian_krystal_lose.gif)
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+To create a game using jQuery. This is the second version of this project. The code is now more readable. The old code can be found [here](https://github.com/MattRoger/crystalGuessGame)
 
 ## Build Status
-Y/N
+Complete 	:checkered_flag:
 
 ## Tech/framework used
-
-## Features
+* jQuery
+* CSS
+* html
 
 ## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex
+jQuery
 
 
 ## Installation
@@ -21,22 +29,9 @@ If you're using any code style like xo, standard etc. That will help others whil
 * :sheep: Clone it
 
 
-## API Reference
-
-## Tests
-
-## How to use?
-
 
 ## Credits / Contact information
 * @MattRoger 
-  * :man_office_worker: https://mattroger.github.io/
-  * :e-mail: mattroger.webdev@gmail.com
-<<<<<<< HEAD
-  * :man_office_worker: www.linkedin.com/in/matt-roger/
-=======
-  * :man_office_worker: www.linkedin.com/in/matt-roger/
-
-
-## License
->>>>>>> d9a3cf1fef2c1be954d7e337140d82652293c81e
+  * :octocat: [Github](https://mattroger.github.io)
+  * :e-mail: [Email](mattroger.webdev@gmail.com)
+  * :man_office_worker: [LinkedIn](www.linkedin.com/in/matt-roger)
