@@ -31,12 +31,16 @@ body {
 }
 
 .gameRules {
-  background-color: #f1ffe8; 
+  background-color: #f1ffe8;
   padding: 2em 3em;
   text-align: center;
+  border: 2px solid lawngreen;
+  -webkit-box-shadow: -1px 3px 100px -3px rgba(51, 255, 0, 1);
+  -moz-box-shadow: -1px 3px 100px -3px rgba(51, 255, 0, 1);
+  box-shadow: -1px 3px 100px -3px rgba(51, 255, 0, 1);
 }
-.gameRules p{
-    font-size: 1.25em;
+.gameRules p {
+  font-size: 1.25em;
 }
 
 .startButton {
@@ -45,6 +49,7 @@ body {
   margin: auto;
   padding: 0.75em 1.5em;
   background-color: #97dfd9;
+  border: 2px solid lawngreen;
 }
 
 .startButton:hover {
@@ -73,71 +78,71 @@ body {
   width: 40%;
 }
 
-.scoreBoard{
-    background-color: #5CAD4A;
-    position: absolute;
-    top:1em;
-    right:8em;
-    padding:0 1em;
-    font-size: 2.5em;
-    border: .15em solid #208D45;
-    color:#97DFD9;
-    width:450px;
+.scoreBoard {
+  background-color: #5cad4a;
+  position: absolute;
+  top: 1em;
+  right: 8em;
+  padding: 0 1em;
+  font-size: 2.5em;
+  border: 0.15em solid #208d45;
+  color: #97dfd9;
+  width: 450px;
 }
 
-.endWrapper{     
-    display:block
+.endWrapper {
+  display: block;
 }
 
-.endImg{
-    width: 600px;
-    display: block;
-    margin: auto;
+.endImg {
+  width: 600px;
+  display: block;
+  margin: auto;
 }
 
-.end{
-    margin: auto;
-    width:80%;
-    font-size:2em;
-    color:#97dfd9;
-    text-align: center;
+.end {
+  margin: auto;
+  width: 80%;
+  font-size: 2em;
+  color: #97dfd9;
+  text-align: center;
 }
 
-.button{
-    font-size:2.25em;
-    padding: .35em 1em;
-    background-color: #97dfd9;
+.button {
+  font-size: 2.25em;
+  padding: 0.35em 1em;
+  background-color: #97dfd9;
 }
-.button:hover{
-    background-color: #fef96e;
+.button:hover {
+  background-color: #fef96e;
 }
-.thanksForPlaying{
-    display:none; 
-    width: 800px; 
-    margin: auto;  
+.thanksForPlaying {
+  display: none;
+  width: 800px;
+  margin: auto;
 }
-.thanksForPlaying img{
-    display: block;
-    margin: auto;  
-    width: 225px;
-    padding-bottom:1em;
+.thanksForPlaying img {
+  display: block;
+  margin: auto;
+  width: 225px;
+  padding-bottom: 1em;
 }
 
-.thanksText{  
-    padding: 1.5em 2em;
-    width:600px;
-    background-color: #f1ffe8;
-    text-align: center;
+.thanksText {
+  padding: 1.5em 2em;
+  width: 600px;
+  background-color: #f1ffe8;
+  text-align: center;
 }
-.thanksText .button{
-    width:80%;
+.thanksText .button {
+  width: 80%;
 }
 .thanksText p,
-.thanksText a{
-    font-size: 1.5em;
-    color:black;
+.thanksText a {
+  font-size: 1.5em;
+  color: black;
 }
 
-.thanksText a:hover{
-    color:#fef96e
+.thanksText a:hover {
+  color: #fef96e;
 }
